@@ -34,6 +34,7 @@ export const PhotoCaptureAppConfigSchema = z
     enableTutorial: z.nativeEnum(PhotoCaptureTutorialOption).optional(),
     allowSkipTutorial: z.boolean().optional(),
     enableSightTutorial: z.boolean().optional(),
+    enableAutoComplete: z.boolean().optional(),
   })
   .and(SharedCaptureAppConfigSchema)
   .and(ComplianceOptionsSchema)

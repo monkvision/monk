@@ -253,6 +253,12 @@ export type PhotoCaptureAppConfig = SharedCaptureAppConfig &
      * @default true
      */
     enableSightTutorial?: boolean;
+    /**
+     * Boolean indicating whether the inspection should be automatically completed when all sights are compliant.
+     *
+     * @default false
+     */
+    enableAutoComplete?: boolean;
   } & (
     | {
         /**

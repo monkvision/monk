@@ -315,6 +315,7 @@ export const LiveConfigSchema = z
     enableTutorial: z.nativeEnum(PhotoCaptureTutorialOption).optional(),
     allowSkipTutorial: z.boolean().optional(),
     enableSightTutorial: z.boolean().optional(),
+    enableAutoComplete: z.boolean().optional(),
     defaultVehicleType: z.nativeEnum(VehicleType),
     allowManualLogin: z.boolean(),
     allowVehicleTypeSelection: z.boolean(),
